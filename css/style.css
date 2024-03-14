@@ -441,3 +441,55 @@ text-align: left;
         min-height: 48px;
     }
 }
+
+@media (max-width: 767px){
+    .nav-page .menu-list,
+    .nav-page .header-login{
+        display: none;
+    }
+    .banner-home{
+        flex-direction: column;
+    }
+    .banner-left_content .baner-title_page{
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .banner-left_content .banner-btn{
+        margin: 20px 0px 0px 0px;
+    }
+    .packages-block_content{
+        padding: 60px 0px 60px 0px;
+        flex-direction: column;
+    }
+    .packages-left_text{
+        order: -1;
+        gap: 15px;
+    }
+    .team-block .team-list_iteam{
+        flex-wrap: wrap;
+      flex-direction: column;
+      gap: 30px;
+    }
+    .team-item_bock{
+        width: 100%;
+    }
+    .team-user_avt img{
+        width: 100%;
+    }
+    .footer-content{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .footer-sup-menu{
+        width: 45%;
+    }
+    .footer-sup-menu:last-child{
+        width: 100%;
+    }
+    .title-sup_footer{
+        min-height: auto;
+    }
+    .footer-bot .container{
+        gap: 20px;
+    }
+}
