@@ -11,3 +11,19 @@ var header = document.getElementById("header");
       header.classList.remove("fixed");
     }
   });
+
+//   show menu mobile
+// Lấy thẻ button và div menu
+var button = document.getElementById("show-menu_mobile");
+var menu = document.querySelector("#menu-mobile");
+var hideMenu = document.getElementById("hide-menu-mobile");
+
+// Thêm sự kiện click cho button
+hideMenu.addEventListener("click", function() {
+    menu.style.display = "none";
+ 
+});
+button.addEventListener("click", function() {
+    menu.style.display = "block";
+ 
+});
