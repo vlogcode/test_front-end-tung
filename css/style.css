@@ -136,3 +136,47 @@ text-align: center;
     gap: 10px;
 
 }
+/* body */
+.packages-block_content{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 61px;
+padding: 134px 0px 121px 0px;
+}
+.title-page{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color:  #252B42;
+    text-align: left;
+
+}
+.top-title_red{
+width: 94px;
+height: 7px;
+background: #E74040;
+
+}
+.packages-left_text{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.packages-left_text .packages-text_content{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+.Packages-learn_more{
+    color: #96BB7C;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    display: flex ;
+    align-items: center;
+    gap: 10px;
+}
