@@ -194,7 +194,55 @@ background: #E74040;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
-    letter-spacing: 0.10000000149011612px;
     text-align: left;
+    margin: 10px 0px 10px 0px;
+}
+
+.team-block  .text-team_dep{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.team-block .team-list_iteam{
+    margin: 112px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.team-item_bock{
+    box-shadow: 0px 13px 19px 0px #00000012;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+
+}
+.team-item_bock .team-user_infor{
+    padding: 30px 30px 30px 30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.team-item_bock .team-user_infor .team-name_infor{
+    color: #252B42;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
     
+}
+.team-item_bock .team-user_infor .team-profession_infor{
+    color: #737373;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center; 
+}
+.team-item_bock .team-user_infor .usre-social-network{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
 }
