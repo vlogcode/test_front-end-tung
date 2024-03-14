@@ -4,8 +4,135 @@
     padding: 0px;
 }
 .container{
-    max-width: 1050px;
+    max-width: 1020px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+}
+ul,li,a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* css header */
+header {
+    background: #FFF2F3;
+}
+.nav-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 21px 0px 21px 0px ;
+}
+.nav-page .menu-list{
+    
+}
+.nav-page .menu-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+}
+.nav-page .menu-list ul li a{
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+color: #737373;
+text-align: center;
+
+}
+.nav-page .header-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+}
+.nav-page .header-login .header-btn_login{
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: right;
+    color: #96BB7C;
+
+}
+.bnt-raised{
+    background: #96BB7C;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 40px;
+font-size: 14px;
+font-weight: 700;
+line-height: 22px;
+text-align: center;
+}
+.bnt-raise:hover{
+    
+
+}
+.btn-outlined{
+    border: 1px solid #96BB7C;
+    background: transparent;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 40px;
+    color: #96BB7C;
+font-size: 14px;
+font-weight: 700;
+line-height: 22px;
+text-align: center;
+}
+ .header-btn_join{
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* banner */
+.banner-home{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.banner-home{
+    margin: 0 auto;
+}
+.banner-left_content {
+    max-width: 573px;
+    width: 100%;
+}
+.banner-left_content .banner-text_small{
+    color: #96BB7C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    
+}
+.banner-left_content .baner-title_page{
+   color: #252B42;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: left;
+    max-width: 542px;
+    margin: 30px 0px ;
+}
+.banner-left_content .banner-text_content{
+    color: #737373;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    max-width: 338px;
+}
+.banner-left_content .banner-btn{
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
 }
