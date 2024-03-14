@@ -27,3 +27,22 @@ button.addEventListener("click", function() {
     menu.style.display = "block";
  
 });
+
+// add class .fixed
+var scrool = document.getElementById("scrol-top");
+
+  window.addEventListener("scroll", function() {
+  
+    if (window.scrollY >= 100) {
+  
+      scrool.classList.add("active-show");
+    } else {
+   
+      scrool.classList.remove("active-show");
+    }
+  });
+
+  function scrollToTop() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
